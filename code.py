@@ -32,5 +32,5 @@ def anagram(arr):
     return ls
 
 print(anagram(keys))
-# time complexity - O(nlog(len(word)))
+# time complexity - O(nlog(mlen(m))) where m is len(word)
 # Space complexity - O(n)
